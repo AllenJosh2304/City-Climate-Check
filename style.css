@@ -119,5 +119,23 @@ button:active {
     width: 120px;
   }
 }
+@media screen and (max-width: 480px) {
+  .line1 h3, .line2 h3 {
+    font-size: 1.2rem;
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  input, button {
+    width: 95%;
+  }
+
+  .sec2 > h2 {
+    font-size: 1.5rem;
+  }
+}
 
 
