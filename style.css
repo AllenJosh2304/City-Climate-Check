@@ -97,3 +97,27 @@ button:active {
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .sec1 {
+    padding: 15px 0;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  .line1 h3, .line2 h3 {
+    font-size: 1.5rem;
+    width: 120px;
+  }
+}
+
+
